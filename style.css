@@ -1,0 +1,200 @@
+
+html{
+    background-image: linear-gradient(#FC5E55, #FA4083);
+    height: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.container{
+
+    width: 1024px;
+    min-height: 300px;
+    /* background-color: rgb(2, 41, 2); */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+header{
+    /* background-color: rgb(47, 187, 47); */
+    min-height: 100px;
+    width: 1024px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.logo{
+    padding-top: 20px;
+    flex: 3;
+}
+
+nav{
+ 
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    
+}
+
+nav .button{
+    border: 5px solid white;
+    background: transparent;
+
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 0px;
+    min-height: 50px;
+    min-width: 150px;
+    text-align: center;
+    font-size: 1.75rem;
+    
+    line-height: 2.75rem;
+    
+
+
+}
+
+main{
+    /* background-color: rgb(18, 139, 18); */
+    width: 1024px;
+    min-height: 500px;
+    display: flex;
+    align-items: center; 
+    color: white;
+    
+}
+
+.herobox1{
+    /* background-color: purple; */
+    flex: 2;
+    padding-right: 40px;
+}
+
+.herobox2{
+    /* background-color: rebeccapurple; */
+    flex: 1;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.445);
+}
+
+
+h1{
+    font-size: 3.25rem;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.445);
+}
+
+.herobox1 p {
+    padding-right: 50px;
+    
+}
+
+.herobox1 .button{
+    background-color: white;
+    color: #FA4083;
+    padding: 5px;
+    
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 10px;
+    min-height: 50px;
+    min-width: 200px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.445);
+    
+}
+
+/* a.button{
+    display: inline-block;
+    margin-top: 10px;
+} */
+
+.herobox2 img{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.445);
+}
+
+.cards{
+    /* background-color: rgb(6, 43, 6); */
+    min-height: 300px;
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    background-size: cover;
+
+    
+
+}
+
+.card1{
+    /* background-color: rgb(175, 84, 99); */
+    background-image: url(images/image-background-card1.jpg);
+    min-height: 100px;
+    width: 30%;
+
+}
+
+.card2{
+    /* background-color: rgb(214, 140, 153); */
+    background-image: url(images/image-background-card2.jpg);
+    min-height: 100px;
+    width: 30%;
+    
+}
+.card3{
+    /* background-color: rgb(141, 22, 42); */
+    background-image: url(images/image-background-card3.jpg);
+    min-height: 100px;
+    width: 30%;
+
+}
+
+.card1, .card2, .card3{
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.445);
+}
+
+h2{
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+/* .cards p{
+    padding-left: 30px;
+    padding-right: 30px;
+} */
+
+
+i{
+    font-size: 80px;
+    /* margin-top: 30px; */
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    line-height: 1.5rem;
+}
